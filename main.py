@@ -8,7 +8,7 @@ while True:
     i = GPIO.input(15)
     if i == 0:
         print("No motion", i)
-        time.sleep(0.1)
+        time.sleep(6)
     elif i == 1:
         print("Motion Detected", i)
         time.sleep(6)
